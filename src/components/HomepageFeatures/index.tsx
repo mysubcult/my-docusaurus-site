@@ -10,32 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Установка ПО',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Подробные инструкции по установке программного обеспечения для диагностики автомобилей. Наши руководства помогут вам быстро и легко установить необходимое ПО, чтобы вы могли сразу приступить к работе. Мы предоставляем шаг за шагом инструкции, которые подходят как для новичков, так и для опытных пользователей.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Использование ПО',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Руководства и документация по использованию программного обеспечения для диагностики автомобилей. Мы предлагаем подробные инструкции, которые помогут вам максимально эффективно использовать все возможности нашего ПО. Вы найдете здесь советы и рекомендации по настройке, использованию различных функций и решению возможных проблем.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Использование Оборудования',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Инструкции по использованию оборудования для диагностики автомобилей. Мы предоставляем подробные руководства по настройке и использованию диагностического оборудования, чтобы вы могли быстро и точно диагностировать проблемы в автомобилях. Наши инструкции помогут вам максимально эффективно использовать оборудование и получать точные результаты.
       </>
     ),
   },
