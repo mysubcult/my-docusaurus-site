@@ -97,8 +97,8 @@ const config: Config = {
               to: '/blog',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/mysubcult/my-docusaurus-site',
+              label: 'Официальный сайт',
+              href: 'https://смартдиаг.рф',
             },
           ],
         },
