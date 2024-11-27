@@ -3,8 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Мой сайт!',
-  tagline: 'Docusaurus is cool',
+  title: 'База знаний',
+  tagline: 'Все инструкции, советы и рекомендации в одном месте',
   favicon: 'img/favicon.ico',
   url: 'https://docs.смартдиаг.рф', // Ваш новый домен
   baseUrl: '/', // Базовый URL для вашего проекта
