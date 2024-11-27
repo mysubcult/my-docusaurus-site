@@ -15,6 +15,9 @@
   --ifm-color-primary-lightest: #ff9999; /* Самый светлый красный */
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: 'Arial, sans-serif'; /* Изменение шрифта на более современный */
+  --ifm-border-radius: 8px; /* Скругление углов */
+  --ifm-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень для элементов */
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -33,4 +36,90 @@
 body.home {
   background-color: #000000; /* Черный фон */
   color: #ff0000; /* Красный текст */
+}
+
+/* Стилизация заголовков */
+h1, h2, h3, h4, h5, h6 {
+  color: #ff0000; /* Красный текст для заголовков */
+  font-family: 'Arial, sans-serif'; /* Изменение шрифта заголовков */
+}
+
+/* Стилизация ссылок */
+a {
+  color: #ff0000; /* Красный текст для ссылок */
+  text-decoration: none; /* Убираем подчеркивание */
+}
+
+a:hover {
+  text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+/* Стилизация кнопок */
+button, .button {
+  background-color: #ff0000; /* Красный фон кнопок */
+  color: #ffffff; /* Белый текст кнопок */
+  border: none; /* Убираем границу */
+  border-radius: var(--ifm-border-radius); /* Скругление углов */
+  padding: 10px 20px; /* Отступы */
+  cursor: pointer; /* Курсор при наведении */
+  transition: background-color 0.3s; /* Плавный переход цвета */
+}
+
+button:hover, .button:hover {
+  background-color: #cc0000; /* Темно-красный фон при наведении */
+}
+
+/* Стилизация кода */
+code {
+  background-color: #f0f0f0; /* Светло-серый фон для кода */
+  color: #ff0000; /* Красный текст для кода */
+  padding: 2px 4px; /* Отступы */
+  border-radius: var(--ifm-border-radius); /* Скругление углов */
+}
+
+/* Стилизация блоков кода */
+pre {
+  background-color: #000000; /* Черный фон для блоков кода */
+  color: #ff0000; /* Красный текст для блоков кода */
+  padding: 10px; /* Отступы */
+  border-radius: var(--ifm-border-radius); /* Скругление углов */
+  overflow: auto; /* Прокрутка при переполнении */
+}
+
+/* Стилизация таблиц */
+table {
+  width: 100%; /* Ширина таблицы */
+  border-collapse: collapse; /* Слияние границ */
+}
+
+table, th, td {
+  border: 1px solid #ff0000; /* Красная граница */
+}
+
+th, td {
+  padding: 8px; /* Отступы */
+  text-align: left; /* Выравнивание текста */
+}
+
+th {
+  background-color: #ff0000; /* Красный фон для заголовков таблицы */
+  color: #ffffff; /* Белый текст для заголовков таблицы */
+}
+
+/* Стилизация списков */
+ul, ol {
+  padding-left: 20px; /* Отступы слева */
+}
+
+li {
+  margin-bottom: 5px; /* Отступы между элементами списка */
+}
+
+/* Стилизация блоков цитат */
+blockquote {
+  background-color: #f0f0f0; /* Светло-серый фон для цитат */
+  color: #ff0000; /* Красный текст для цитат */
+  padding: 10px 20px; /* Отступы */
+  border-left: 5px solid #ff0000; /* Красная граница слева */
+  border-radius: var(--ifm-border-radius); /* Скругление углов */
 }
