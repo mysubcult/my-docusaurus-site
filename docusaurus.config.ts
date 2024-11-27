@@ -43,7 +43,7 @@ const config: Config = {
       title: 'SmartDiag',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
