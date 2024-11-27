@@ -23,7 +23,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/mysubcult/my-docusaurus-site/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -31,7 +30,6 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl: 'https://github.com/mysubcult/my-docusaurus-site/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
