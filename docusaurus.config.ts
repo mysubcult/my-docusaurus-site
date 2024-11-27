@@ -50,9 +50,9 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Главная',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
+        { to: '/blog', label: 'Новости', position: 'left' },
         {
           href: 'https://смартдиаг.рф',
           label: 'Официальный сайт',
