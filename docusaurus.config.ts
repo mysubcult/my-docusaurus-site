@@ -54,8 +54,8 @@ const config: Config = {
         },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/mysubcult/my-docusaurus-site',
-          label: 'GitHub',
+          href: 'https://смартдиаг.рф',
+          label: 'Официальный сайт',
           position: 'right',
         },
       ],
