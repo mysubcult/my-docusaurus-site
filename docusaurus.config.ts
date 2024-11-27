@@ -44,10 +44,6 @@ const config: Config = {
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
-        srcDark: 'img/logo_dark.svg', // Добавлено для поддержки темного режима
-        style: {
-          border: 'solid red', // Красная граница для логотипа
-        },
       },
       items: [
         {
@@ -63,8 +59,6 @@ const config: Config = {
           position: 'right',
         },
       ],
-      style: 'primary', // Стиль навигационной панели
-      hideOnScroll: false,
     },
     footer: {
       style: 'dark',
@@ -114,18 +108,6 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
-    },
-    colorMode: {
-      defaultMode: 'light',
-      disableSwitch: false,
-      respectPrefersColorScheme: false,
-    },
-    announcementBar: {
-      id: 'announcement',
-      content: 'Welcome to my site!',
-      backgroundColor: '#ff0000', // Красный фон
-      textColor: '#ffffff', // Белый текст
-      isCloseable: true,
     },
   } satisfies Preset.ThemeConfig,
 };
