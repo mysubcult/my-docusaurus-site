@@ -32,7 +32,6 @@ const config: Config = {
             xslt: true,
           },
           editUrl: 'https://github.com/mysubcult/my-docusaurus-site/tree/main/',
-          blogPostsPerPage: 10,
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -112,7 +111,7 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
-  },
+  } satisfies Preset.ThemeConfig,
 };
 
 export default config;
