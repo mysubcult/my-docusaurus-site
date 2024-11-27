@@ -40,7 +40,7 @@ const config: Config = {
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'SmartDiag',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -64,46 +64,42 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Инструкции',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Главная',
               to: '/docs/intro',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Обратная связь',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Telegram',
+              href: 'https://смартдиаг-поддержка.рф/telegram',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'WhatsApp',
+              href: 'https://смартдиаг-поддержка.рф/whatsapp',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Еще',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
             {
               label: 'Официальный сайт',
               href: 'https://смартдиаг.рф',
             },
+            {
+              label: 'Новости',
+              to: '/blog',
+            },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} SmartDiag.`,
     },
     prism: {
       theme: prismThemes.github,
