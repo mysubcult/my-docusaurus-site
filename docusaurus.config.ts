@@ -1,4 +1,8 @@
-const config = {
+import {themes as prismThemes} from 'prism-react-renderer';
+import type {Config} from '@docusaurus/types';
+import type * as Preset from '@docusaurus/preset-classic';
+
+const config: Config = {
   title: 'Мой сайт!',
   tagline: 'Docusaurus is cool',
   favicon: 'img/favicon.ico',
@@ -33,7 +37,7 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
-      },
+      } satisfies Preset.Options,
     ],
   ],
   themeConfig: {
@@ -105,8 +109,8 @@ const config = {
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
     prism: {
-      theme: lightCodeTheme,
-      darkTheme: darkCodeTheme,
+      theme: prismThemes.github,
+      darkTheme: prismThemes.dracula,
     },
   },
 };
