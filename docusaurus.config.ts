@@ -40,9 +40,8 @@ const config: Config = {
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'SmartDiag',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'SmartDiag',
         src: 'img/logo.png',
         href: 'https://смартдиаг.рф',
         target: '_self',
