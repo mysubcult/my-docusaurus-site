@@ -44,19 +44,33 @@ const config: Config = {
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.png',
+        href: 'https://смартдиаг.рф', // Ссылка на основной сайт при нажатии на логотип
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Главная',
-        },
-        { to: '/blog', label: 'Новости', position: 'left' },
-        {
           href: 'https://смартдиаг.рф',
-          label: 'Официальный сайт',
-          position: 'right',
+          label: 'Главная',
+          position: 'left',
+        },
+        {
+          href: 'https://смартдиаг.рф/soft',
+          label: 'Программы',
+          position: 'left',
+        },
+        {
+          to: '/docs',
+          label: 'Инструкции',
+          position: 'left',
+        },
+        {
+          href: 'https://смартдиаг.рф/about',
+          label: 'О нас',
+          position: 'left',
+        },
+        {
+          href: 'https://смартдиаг.рф/contact',
+          label: 'Обратная связь',
+          position: 'left',
         },
       ],
     },
