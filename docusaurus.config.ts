@@ -69,6 +69,7 @@ const config: Config = {
         },
         {
           to: 'https://смартдиаг.рф/contact',
+          target: '_self',
           label: 'Обратная связь',
           position: 'left',
         },
