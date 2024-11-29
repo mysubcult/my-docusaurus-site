@@ -44,7 +44,7 @@ const config: Config = {
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.png',
-        to: 'https://смартдиаг.рф',
+        href: 'https://смартдиаг.рф',
         target: '_self',
       },
       items: [
