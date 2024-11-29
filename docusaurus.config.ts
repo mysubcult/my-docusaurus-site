@@ -51,26 +51,31 @@ const config: Config = {
           href: 'https://смартдиаг.рф',
           label: 'Главная',
           position: 'left',
+          target: '_self', // Открывать в текущем окне
         },
         {
           href: 'https://смартдиаг.рф/soft',
           label: 'Программы',
           position: 'left',
+          target: '_self', // Открывать в текущем окне
         },
         {
           href: 'https://docs.смартдиаг.рф',
           label: 'Инструкции',
           position: 'left',
+          target: '_self', // Открывать в текущем окне
         },
         {
           href: 'https://смартдиаг.рф/about',
           label: 'О нас',
           position: 'left',
+          target: '_self', // Открывать в текущем окне
         },
         {
           href: 'https://смартдиаг.рф/contact',
           label: 'Обратная связь',
           position: 'left',
+          target: '_self', // Открывать в текущем окне
         },
       ],
     },
