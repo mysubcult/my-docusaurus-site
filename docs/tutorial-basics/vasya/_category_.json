@@ -1,4 +1,8 @@
 {
   "label": "Вася",
-  "position": 2
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Тест."
+  }
 }
