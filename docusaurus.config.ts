@@ -51,31 +51,31 @@ const config: Config = {
           href: 'https://смартдиаг.рф',
           label: 'Главная',
           position: 'left',
-          target: '_self', // Открывать в текущем окне
+          rel: 'noopener noreferrer', // Убираем target и добавляем rel
         },
         {
           href: 'https://смартдиаг.рф/soft',
           label: 'Программы',
           position: 'left',
-          target: '_self', // Открывать в текущем окне
+          rel: 'noopener noreferrer', // Убираем target и добавляем rel
         },
         {
           href: 'https://docs.смартдиаг.рф',
           label: 'Инструкции',
           position: 'left',
-          target: '_self', // Открывать в текущем окне
+          rel: 'noopener noreferrer', // Убираем target и добавляем rel
         },
         {
           href: 'https://смартдиаг.рф/about',
           label: 'О нас',
           position: 'left',
-          target: '_self', // Открывать в текущем окне
+          rel: 'noopener noreferrer', // Убираем target и добавляем rel
         },
         {
           href: 'https://смартдиаг.рф/contact',
           label: 'Обратная связь',
           position: 'left',
-          target: '_self', // Открывать в текущем окне
+          rel: 'noopener noreferrer', // Убираем target и добавляем rel
         },
       ],
     },
@@ -97,10 +97,12 @@ const config: Config = {
             {
               label: 'Telegram',
               href: 'https://смартдиаг-поддержка.рф/telegram',
+              rel: 'noopener noreferrer', // Убираем target и добавляем rel
             },
             {
               label: 'WhatsApp',
               href: 'https://смартдиаг-поддержка.рф/whatsapp',
+              rel: 'noopener noreferrer', // Убираем target и добавляем rel
             },
           ],
         },
@@ -110,6 +112,7 @@ const config: Config = {
             {
               label: 'Официальный сайт',
               href: 'https://смартдиаг.рф',
+              rel: 'noopener noreferrer', // Убираем target и добавляем rel
             },
             {
               label: 'Новости',
