@@ -48,34 +48,29 @@ const config: Config = {
       },
       items: [
         {
-          href: 'https://смартдиаг.рф',
+          to: 'https://смартдиаг.рф',
           label: 'Главная',
           position: 'left',
-          rel: 'noopener noreferrer', // Убираем target и добавляем rel
         },
         {
-          href: 'https://смартдиаг.рф/soft',
+          to: 'https://смартдиаг.рф/soft',
           label: 'Программы',
           position: 'left',
-          rel: 'noopener noreferrer', // Убираем target и добавляем rel
         },
         {
-          href: 'https://docs.смартдиаг.рф',
+          to: 'https://docs.смартдиаг.рф',
           label: 'Инструкции',
           position: 'left',
-          rel: 'noopener noreferrer', // Убираем target и добавляем rel
         },
         {
-          href: 'https://смартдиаг.рф/about',
+          to: 'https://смартдиаг.рф/about',
           label: 'О нас',
           position: 'left',
-          rel: 'noopener noreferrer', // Убираем target и добавляем rel
         },
         {
-          href: 'https://смартдиаг.рф/contact',
+          to: 'https://смартдиаг.рф/contact',
           label: 'Обратная связь',
           position: 'left',
-          rel: 'noopener noreferrer', // Убираем target и добавляем rel
         },
       ],
     },
@@ -96,13 +91,11 @@ const config: Config = {
           items: [
             {
               label: 'Telegram',
-              href: 'https://смартдиаг-поддержка.рф/telegram',
-              rel: 'noopener noreferrer', // Убираем target и добавляем rel
+              to: 'https://смартдиаг-поддержка.рф/telegram',
             },
             {
               label: 'WhatsApp',
-              href: 'https://смартдиаг-поддержка.рф/whatsapp',
-              rel: 'noopener noreferrer', // Убираем target и добавляем rel
+              to: 'https://смартдиаг-поддержка.рф/whatsapp',
             },
           ],
         },
@@ -111,8 +104,7 @@ const config: Config = {
           items: [
             {
               label: 'Официальный сайт',
-              href: 'https://смартдиаг.рф',
-              rel: 'noopener noreferrer', // Убираем target и добавляем rel
+              to: 'https://смартдиаг.рф',
             },
             {
               label: 'Новости',
