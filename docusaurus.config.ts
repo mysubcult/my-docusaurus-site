@@ -111,10 +111,6 @@ const config: Config = {
               label: 'Официальный сайт',
               to: 'https://смартдиаг.рф',
             },
-            {
-              label: 'Новости',
-              to: '/blog',
-            },
           ],
         },
       ],
