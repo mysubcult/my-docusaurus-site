@@ -35,7 +35,7 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
-      },
+      } satisfies Preset.Options,
     ],
   ],
   themeConfig: {
