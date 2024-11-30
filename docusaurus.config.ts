@@ -22,7 +22,6 @@ const config: Config = {
       'classic',
       {
         docs: {
-          routeBasePath: '/', // Сервировать документацию в корне сайта
           sidebarPath: './sidebars.ts',
         },
         blog: {
@@ -61,13 +60,8 @@ const config: Config = {
           position: 'left',
         },
         {
-          to: '/intro', // Обновите путь для документации
+          to: '/docs/intro',
           label: 'Инструкции',
-          position: 'left',
-        },
-        {
-          to: '/blog', // Путь для блога
-          label: 'Блог',
           position: 'left',
         },
         {
@@ -92,16 +86,7 @@ const config: Config = {
           items: [
             {
               label: 'Главная',
-              to: '/intro', // Обновите путь для документации
-            },
-          ],
-        },
-        {
-          title: 'Блог',
-          items: [
-            {
-              label: 'Блог',
-              to: '/blog', // Путь для блога
+              to: '/docs/intro',
             },
           ],
         },
