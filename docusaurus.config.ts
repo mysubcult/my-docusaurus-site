@@ -60,8 +60,7 @@ const config: Config = {
           position: 'left',
         },
         {
-          to: 'https://docs.смартдиаг.рф/docs/intro',
-          target: '_self',
+          to: '/docs/intro',
           label: 'Инструкции',
           position: 'left',
         },
