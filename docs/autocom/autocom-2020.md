@@ -40,7 +40,7 @@ sidebar_position: 1
 
 ![Next](./img/2020/image5.png)
 
-4. Выбираем **Autocom** или **Delphi**. На ваше усмотрение.
+4. Выбираем **Autocom**.
 
 ![Выбор интерфейса](./img/2020/image6.png)
 
