@@ -61,7 +61,7 @@ const config: Config = {
           position: 'left',
         },
         {
-          to: '/intro',
+          to: 'intro',
           label: 'Инструкции',
           position: 'left',
         },        
