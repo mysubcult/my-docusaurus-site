@@ -8,7 +8,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
   url: 'https://docs.смартдиаг.рф', // Ваш новый домен
   baseUrl: '/', // Базовый URL для вашего проекта
-  organizationName: 'mysubcult', // Ваше имя пользователя или организация на GitHub
+  organizationName: 'mysubcult', // Ваше имя пользователя или организация на Git
   projectName: 'my-docusaurus-site', // Название вашего проекта
   trailingSlash: false,
   onBrokenLinks: 'throw',
