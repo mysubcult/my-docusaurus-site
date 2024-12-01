@@ -89,12 +89,32 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Инструкции',
+          title: 'Навигация',
           items: [
-                    {
+{
+          to: 'https://смартдиаг.рф',
+          target: '_self',
+          label: 'Главная',
+        },
+        {
+          to: 'https://смартдиаг.рф/soft',
+          target: '_self',
+          label: 'Программы',
+        },
+        {
           to: '/',
           label: 'Инструкции',
-        }, 
+        },        
+        {
+          to: 'https://смартдиаг.рф/about',
+          target: '_self',
+          label: 'О нас',
+        },
+        {
+          to: 'https://смартдиаг.рф/contact',
+          target: '_self',
+          label: 'Обратная связь',
+        },
           ],
         },
         {
