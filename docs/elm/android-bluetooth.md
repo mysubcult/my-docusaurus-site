@@ -50,4 +50,4 @@ sidebar_position: 1
 
 Вот и все, настройка подключения завершена. Теперь вам нужно просто нажать на большую зеленую кнопку **«Подключить»** на главном экране программы.
 
-![Подключение](./img/android-bluetooth/u_ios_connection_progress.jpg)
+![Подключение](./img/android-bluetooth/ru_ios_connection_progress.jpg)
