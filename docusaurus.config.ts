@@ -22,6 +22,7 @@ const config: Config = {
       'classic',
       {
         docs: {
+          routeBasePath: '/', // Set this value to '/'.
           sidebarPath: './sidebars.ts',
         },
         blog: {
