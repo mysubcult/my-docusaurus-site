@@ -106,11 +106,6 @@ const config: Config = {
           label: 'Инструкции',
         },        
         {
-          to: 'https://смартдиаг.рф/about',
-          target: '_self',
-          label: 'О нас',
-        },
-        {
           to: 'https://смартдиаг.рф/contact',
           target: '_self',
           label: 'Обратная связь',
@@ -133,10 +128,11 @@ const config: Config = {
         {
           title: 'Еще',
           items: [
-            {
-              label: 'Официальный сайт',
-              to: 'https://смартдиаг.рф',
-            },
+        {
+          to: 'https://смартдиаг.рф/about',
+          target: '_self',
+          label: 'О нас',
+        },
           ],
         },
       ],
