@@ -17,6 +17,12 @@ const config: Config = {
     defaultLocale: 'ru',
     locales: ['ru'],
   },
+  scripts: [
+        {
+            'src' : '/js/lhc.js',
+            async: true
+        }
+    ],
   presets: [
     [
       'classic',
