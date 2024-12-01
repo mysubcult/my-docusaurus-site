@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 ---
 
 # Настройка подключения к Bluetooth адаптеру ELM327 на Android 📱
