@@ -61,7 +61,7 @@ const config: Config = {
           position: 'left',
         },
         {
-          to: '/docs/intro',
+          to: '/intro',
           label: 'Инструкции',
           position: 'left',
         },
@@ -87,7 +87,7 @@ const config: Config = {
           items: [
             {
               label: 'Главная',
-              to: '/docs/intro',
+              to: '/intro',
             },
           ],
         },
