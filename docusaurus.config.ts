@@ -61,11 +61,6 @@ const config: Config = {
           position: 'left',
         },
         {
-          to: '/intro',
-          label: 'Инструкции',
-          position: 'left',
-        },
-        {
           to: 'https://смартдиаг.рф/about',
           target: '_self',
           label: 'О нас',
@@ -85,10 +80,6 @@ const config: Config = {
         {
           title: 'Инструкции',
           items: [
-            {
-              label: 'Главная',
-              to: '/intro',
-            },
           ],
         },
         {
