@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 2
 ---
 
 # Решение проблем с подключением по Bluetooth 📡
