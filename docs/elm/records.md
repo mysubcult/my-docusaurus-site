@@ -1,5 +1,5 @@
 ---
-sidebar_position: 82
+sidebar_position: 7
 ---
 # Запись данных 📊
 
