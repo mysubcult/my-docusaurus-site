@@ -1,5 +1,5 @@
 ---
-sidebar_position: 14
+sidebar_position: 5
 ---
 
 # Настройка подключения к Bluetooth LE (4.0) адаптеру ELM327 🔧
