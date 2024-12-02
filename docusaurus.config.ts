@@ -70,7 +70,7 @@ const config: Config = {
           to: '/',
           label: 'Инструкции',
           position: 'left',
-        },        
+        },
         {
           to: 'https://смартдиаг.рф/about',
           target: '_self',
@@ -83,6 +83,25 @@ const config: Config = {
           label: 'Обратная связь',
           position: 'left',
         },
+        {
+          type: 'dropdown',
+          label: 'Магазины',
+          position: 'right',
+          items: [
+            {
+              label: 'OZON',
+              href: 'https://www.ozon.ru/seller/smartdiag-862410/',
+            },
+            {
+              label: 'Яндекс Маркет',
+              href: 'https://market.yandex.ru/business--smartdiag/50025236',
+            },
+            {
+              label: 'Wildberries',
+              href: 'https://www.wildberries.ru/seller/1343369',
+            },
+          ],
+        },
       ],
     },
     footer: {
@@ -91,25 +110,25 @@ const config: Config = {
         {
           title: 'Навигация',
           items: [
-{
-          to: 'https://смартдиаг.рф',
-          target: '_self',
-          label: 'Главная',
-        },
-        {
-          to: 'https://смартдиаг.рф/soft',
-          target: '_self',
-          label: 'Программы',
-        },
-        {
-          to: '/',
-          label: 'Инструкции',
-        },        
-        {
-          to: 'https://смартдиаг.рф/contact',
-          target: '_self',
-          label: 'Обратная связь',
-        },
+            {
+              to: 'https://смартдиаг.рф',
+              target: '_self',
+              label: 'Главная',
+            },
+            {
+              to: 'https://смартдиаг.рф/soft',
+              target: '_self',
+              label: 'Программы',
+            },
+            {
+              to: '/',
+              label: 'Инструкции',
+            },
+            {
+              to: 'https://смартдиаг.рф/contact',
+              target: '_self',
+              label: 'Обратная связь',
+            },
           ],
         },
         {
@@ -128,11 +147,11 @@ const config: Config = {
         {
           title: 'Еще',
           items: [
-        {
-          to: 'https://смартдиаг.рф/about',
-          target: '_self',
-          label: 'О нас',
-        },
+            {
+              to: 'https://смартдиаг.рф/about',
+              target: '_self',
+              label: 'О нас',
+            },
           ],
         },
       ],
