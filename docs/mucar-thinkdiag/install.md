@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Инструкция по активации приборов Thinkdiag, Mucar, SmartDiag 🔧
+# Инструкция по активации приборов Thinkdiag, Mucar 🔧
 
 ## Введение 📚
 
