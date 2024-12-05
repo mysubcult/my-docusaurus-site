@@ -32,7 +32,7 @@ Car Scanner ELM OBD2 и Car Scanner Rus предлагают не только �
 ### Volkswagen, Audi, Skoda, Seat на платформе MLB-EVO:
 - Audi A4 B9, A5 B9 и т.д. (2016+)
 
-### Volkswagen, Audi, Skoda, Seat на платформе PQ26 2017-2019:
+### [Volkswagen, Audi, Skoda, Seat на платформе PQ26 2017-2019:](/elm/carscanner/coding/ccoding-pq26)
 - Volkswagen Polo Mk5 Facelift (Typ 6C, 2014–2018, НЕ СЕДАН!)
 - Škoda Fabia Mk3 (Typ NJ, 2014–present), Škoda Rapid (2017) (2017-2019)
 
