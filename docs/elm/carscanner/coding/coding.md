@@ -18,7 +18,7 @@ Car Scanner ELM OBD2 и Car Scanner Rus предлагают не только �
 
 Полный перечень доступных параметров вы можете получить по ссылкам ниже:
 
-### Volkswagen, Audi, Skoda, Seat на платформе MQB:
+### [Volkswagen, Audi, Skoda, Seat на платформе MQB:](/elm/carscanner/coding/coding-mqb)
 - Audi A1 Mk2, Audi A3 Mk3, Audi A3 Mk4, Audi TT Mk3, Audi Q2, Audi Q3 Mk2
 - Cupra Formentor, Jetta VS5 (China), Jetta VS7 (China)
 - SEAT Ibiza Mk5, SEAT León Mk3, SEAT León Mk4, SEAT Arona, SEAT Ateca, SEAT Tarraco
