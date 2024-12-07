@@ -29,14 +29,14 @@ Car Scanner ELM OBD2 и Car Scanner Rus предлагают не только �
 - Volkswagen Polo Mk6, Volkswagen T-Cross, Volkswagen T-Roc, Volkswagen Tayron (China)
 - Volkswagen Tharu/Tarek (China, Americas), Volkswagen Tiguan Mk2, Volkswagen Touran Mk2, Volkswagen Viloran (China)
 
-### Volkswagen, Audi, Skoda, Seat на платформе MLB-EVO:
+### [Volkswagen, Audi, Skoda, Seat на платформе MLB-EVO:](/elm/carscanner/coding/coding-mlb-evo)
 - Audi A4 B9, A5 B9 и т.д. (2016+)
 
 ### [Volkswagen, Audi, Skoda, Seat на платформе PQ26 2017-2019:](/elm/carscanner/coding/coding-pq26)
 - Volkswagen Polo Mk5 Facelift (Typ 6C, 2014–2018, НЕ СЕДАН!)
 - Škoda Fabia Mk3 (Typ NJ, 2014–present), Škoda Rapid (2017) (2017-2019)
 
-### Volkswagen, Audi, Skoda, Seat на платформе PQ26 2020-:
+### [Volkswagen, Audi, Skoda, Seat на платформе PQ26 2020-:](/elm/carscanner/coding/coding-pq26-2020)
 - New Skoda Rapid MY 2020-, Volkswagen Polo-Sedan (лифтбэк) MY 2020-
 
 ### Volkswagen, Audi, Skoda, Seat на платформе PQ25:
