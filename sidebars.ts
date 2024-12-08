@@ -19,8 +19,8 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Мультимарочные', // Заголовок раздела
       items: [
-        'multibrand/overview', // Примеры документов в этом разделе
-        'multibrand/setup',
+        'autocom/faq', // Примеры документов в этом разделе
+        'autocom/faq',
         // Добавьте другие документы по мере необходимости
       ],
     },
@@ -28,8 +28,8 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Марочные', // Заголовок другого раздела
       items: [
-        'brand/overview', // Примеры документов в этом разделе
-        'brand/setup',
+        'autocom/faq', // Примеры документов в этом разделе
+        'autocom/faq',
         // Добавьте другие документы по мере необходимости
       ],
     },
@@ -37,8 +37,8 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Адаптеры ELM', // Заголовок третьего раздела
       items: [
-        'adapters/overview', // Примеры документов в этом разделе
-        'adapters/setup',
+        'autocom/faq', // Примеры документов в этом разделе
+        'autocom/faq',
         // Добавьте другие документы по мере необходимости
       ],
     },
