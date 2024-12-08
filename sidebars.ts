@@ -19,9 +19,16 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Мультимарочные', // Заголовок раздела
       items: [
-        'autocom', // Примеры документов в этом разделе
-        'delphi',
-        'mucar-thinkdiag',
+ 'autocom/autocom-2020',
+  'autocom/autocom-2021',
+  'autocom/faq',
+  'autocom/not-working',
+  'autocom/warning',
+  'delphi/delphi-2020',
+  'delphi/delphi-2021',
+  'delphi/faq',
+  'delphi/not-working',
+  'delphi/warning'
         // Добавьте другие документы по мере необходимости
       ],
     },
