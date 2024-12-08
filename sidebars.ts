@@ -19,8 +19,9 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Мультимарочные', // Заголовок раздела
       items: [
-        'autocom/faq', // Примеры документов в этом разделе
-        'autocom/faq',
+        'autocom', // Примеры документов в этом разделе
+        'delphi',
+        'mucar-thinkdiag',
         // Добавьте другие документы по мере необходимости
       ],
     },
