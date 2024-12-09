@@ -52,6 +52,8 @@ const config: Config = {
         src: 'img/logo.png',
         href: 'https://смартдиаг.рф',
         target: '_self',
+        width: 32,
+        height: 32,
       },
       items: [
         {
