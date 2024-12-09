@@ -2,13 +2,7 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 
 const sidebars: SidebarsConfig = {
   tutorialSidebar: [
-    {
-      type: 'category',
-      label: 'Вступление',
-      items: [
-        'intro',
-      ],
-    },
+    'intro', // Добавляем intro как отдельную страницу
     {
       type: 'category',
       label: 'Мультимарочные',
